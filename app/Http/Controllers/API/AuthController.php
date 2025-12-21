@@ -28,7 +28,7 @@ class AuthController extends Controller
         ]);
 
         // Create token directly (internal)
-        $tokenResult = $user->createToken('Personal Access Token');
+        // $tokenResult = $user->createToken('Personal Access Token');
 
         return response()->json([
             'status' => true,
@@ -36,9 +36,9 @@ class AuthController extends Controller
             'data' => [
                 'name' => $user->name,
                 'email' => $user->email,
-                'access_token' => $tokenResult->accessToken,
-                'token_type' => 'Bearer',
-                'expires_at' => $tokenResult->token->expires_at
+                // // 'access_token' => $tokenResult->accessToken,
+                // 'token_type' => 'Bearer',
+                // 'expires_at' => $tokenResult->token->expires_at
             ]
         ], 201);
     }
