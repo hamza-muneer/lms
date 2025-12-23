@@ -13,8 +13,8 @@ return [
     'allowed_methods' => ['*'],
 
     'allowed_origins' => [
-    'http://localhost:5173', // your dev frontend
-    // 'https://lms-frontend-five-pink.vercel.app', // production frontend
+    'http://localhost:5173', 
+    'https://lms-frontend-five-pink.vercel.app', 
 ],
 
     //  // React dev server
