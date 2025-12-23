@@ -14,7 +14,7 @@ return [
 
     'allowed_origins' => [
     'http://localhost:5173', // your dev frontend
-    'https://lms-frontend-five-pink.vercel.app', // production frontend
+    // 'https://lms-frontend-five-pink.vercel.app', // production frontend
 ],
 
     //  // React dev server
